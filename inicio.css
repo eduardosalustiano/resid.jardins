@@ -1,3 +1,77 @@
 body{
-    background-color: aquamarine;
+    height: 100vh;
+    background-color: rgb(80, 219, 16);
+   
+}
+@media screen and (max-width: 500px) {
+
+    canvas{
+        width: 350px;
+        height: 250px;
+    }
+    
+    
+    }
+
+nav.menulateral{
+    width: 80px;
+    height: 200%;
+    background-color: rgb(3, 3, 3);
+    padding: 20px 0 0 1%;
+    box-shadow: 4px 0 0 darkred;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+nav.menulateral:hover{
+    width: 200px;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 0px;
+}
+
+.btn-expandir i{
+    color: aliceblue;
+    font-size: 25px;
+    cursor: pointer;
+
+
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+
+}
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.item-menu:hover{
+    background-color: darkred;
+}
+
+ul li.item-menu a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 2%;
+    display: flex;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 25px;
+}
+canvas{
+    margin-left: 87px;
+}
+marquee{
+    position: fixed;
+    top: 10;
+    text-shadow: 2px;
+    font-size: 50px;
+    margin-left: 87px;
 }
