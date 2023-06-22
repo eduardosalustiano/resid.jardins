@@ -22,7 +22,7 @@ let anima=setInterval(()=>{
     if(xtela==3600){
         xtela=600
     }else{
-     xtela+=4
+     xtela+=2
     }
        ctx.clearRect(0,0,910,480)
     
