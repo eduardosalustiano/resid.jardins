@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residencial Jardins</title>
+    <link rel="stylesheet" href="blocos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
+</head>
+<body>
+    
+    <nav class="menulateral">
+     <ul>
+<div class="btn-expandir">
+    <i class="bi bi-list-ul"></i>
+
+    
+</div>
+
+        <li class="item-menu">
+            <a href="inicio.html">
+                <span class="icon"><i class="bi bi-house-fill"></i></span>
+                <span class="txt-link">Home</span>
+            </a>
+        </li>
+
+        <li class="item-menu">
+            <a href="bloco.html">
+                <span class="icon"><i class="bi bi-images"></i></i></span>
+                <span class="txt-link">Img 360graus</span>
+            </a>
+        </li>
+
+        <li class="item-menu">
+            <a href="#">
+                <span class="icon"><i class="bi bi-file-earmark-check"></i></span>
+                <span class="txt-link">Arquivos</span>
+            </a>
+        </li>
+
+        <li class="item-menu">
+            <a href="https://www.google.com.br/maps/@-8.3141222,-35.9667095,3a,75y,249.2h,88.02t/data=!3m7!1e1!3m5!1sydBLqT168Nl1lImN0I835A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DydBLqT168Nl1lImN0I835A%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D134.99068%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu">
+                <span class="icon"><i class="bi bi-geo-alt-fill"></i></span>
+                <span class="txt-link">Localização</span>
+            </a>
+        </li>
+
+        <li class="item-menu">
+            <a href="#">
+                <span class="icon"><i class="bi bi-joystick"></i></span>
+                <span class="txt-link">games</span>
+            </a>
+        </li>
+
+        <li class="item-menu">
+            <a href="#">
+                <span class="icon"></i><i class="bi bi-megaphone-fill"></i></i></span>
+                <span class="txt-link">Informes</span>
+            </a>
+        </li>
+
+        <li class="item-menu">
+            <a href="https://wa.me/5581989318575?text=olá bem vindo(a) nosso site"target="blank">
+                <span class="icon"><i class="bi bi-whatsapp"></i></span>
+                <span class="txt-link">Wathsapp</span>
+            </a>
+        </li>
+    </ul>
+    
+
+    </nav>
+
+      
+    
+    <div>
+        <table1>
+            <tr>
+                
+            <td>
+                <select name="options" id="options"onChange="atualizaselect()">
+                    <option value="0">inicio</option>
+                    <option value="1">bloco 1</option>
+                    <option value="2">bloco 2</option>
+                    <option value="3">bloco 3</option>
+                    <option value="4">bloco 4</option>
+                    <option value="5">bloco 5</option>
+                    <option value="6">bloco 6</option>
+                    <option value="7">bloco 7</option>
+                    <option value="8">bloco 8</option>
+                    <option value="9">bloco 9</option>
+                    <option value="10">bloco 10</option>
+                    <option value="11">bloco 11</option>
+                    <option value="12">bloco 12</option>
+                    <option value="13">bloco 13</option>
+                    <option value="14">bloco 14</option>
+                    <option value="15">bloco 15</option>
+                    <option value="16">bloco 16</option>
+                    <option value="17">bloco 17</option>
+                    <option value="18">bloco 18</option>
+                    <option value="19">bloco 19</option>
+                    <option value="20">bloco 20</option>
+                    <option value="21">bloco 21</option>
+                    <option value="22">bloco 22</option>
+                    <option value="23">bloco 23</option>
+                    <option value="24">bloco 24</option>
+                    <option value="25">bloco 25</option>
+                    <option value="26">bloco 26</option>
+                    <option value="27">bloco 27</option>
+                    <option value="28">bloco 28</option>
+                    <option value="29">bloco 29</option>
+                    <option value="30">bloco 30</option>
+                    <option value="31">bloco 31</option>
+                    
+                </select>
+         
+            </td>
+            <td>
+                <samp class="lupa"><i class="bi bi-search" onclick="busca()">Busca por bloco</i></samp>
+            </td>
+            
+        </tr>
+        </table1>
+       
+        
+    </div>
+   
+    
+
+
+     <marquee behavior="" direction="" width="910"; heidth="100" ;>
+        Bem vindo ao Home do Site Residencial Jardins,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        apoio. Rodriguês cosméticos,&nbsp;&nbsp; @GNET seu provedor de internet
+    </marquee>
+    <marquee class="marq" behavior="alternate" direction="down" width="910" height="300";>
+      
+      <marquee  behavior="alternate" direction="left">
+         <img id="img" src="blocos/bl3.jpg" alt="">
+      </marquee>
+    
+
+
+    </marquee>
+     <div class="fade" id="fade">
+        <div class="modal">
+            <button class="close-modal" onclick="fechar()">Fechar</button>
+            <canvas id="canvas"   width="700" height="350" style="border: 1px solid #000;"></canvas>
+        </div>
+     </div>
+        
+        
+   
+
+
+    
+    <script src="blocos.js">
+
+  
+
+</script>
+</body>
+</html>
