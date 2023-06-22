@@ -20,7 +20,7 @@ function drawImage(){
 
 let anima=setInterval(()=>{
     if(xtela==3600){
-        xtela=0
+        xtela=600
     }else{
      xtela+=4
     }
